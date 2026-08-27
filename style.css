@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2V5dWtyaWZwdmo3eGs1b3BrYmk5cTJvN25hamp0emF1Y3Y1ODY3MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/U3qYN8S0j3bpK/giphy.webp);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(191, 190, 248);
+    margin: 20px;
+}
+
+header {
+    
+    background-color: rgb(30, 30, 87); /* */
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    
+}
+ 
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 20 px;
+}
+
+nav a :hover{
+ text-decoration: underline;
+
+}
+
+.fundo {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+
+
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(93, 90, 186);
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 10px;
+
+
+}
+
+.card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    border-color: rgb(247, 151, 8);
+    box-shadow: 0 15px 20px rgb(88, 77, 126);
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnI1a2s3Mm5maDA1b2t2b2I2ZW5iajFyY2V2dWE0MGZ3OWdjdDU1dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/b7qOIn69c9ZRImAX5G/giphy.webp);
+ text-decoration: none;
+ color: aquamarine;
+ }
